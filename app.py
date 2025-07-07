@@ -84,6 +84,7 @@ st.markdown("""
             opacity: 1;
         }
     }
+    #MainMenu{visibility: hidden;}
     </style>
 """, unsafe_allow_html=True)
 left, middle, right = st.columns([1,3,1], vertical_alignment="center")
